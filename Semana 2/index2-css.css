@@ -1,0 +1,295 @@
+.bold{
+    font-weight: bold;
+}
+.white-font{
+    color:white;
+}
+.grey-font{
+    color:#ccc;
+}
+.smaller-size-font{
+    font-size: 0.875rem;
+}
+.small-size-font{
+    font-size: 1rem;
+}
+.medium-size-font{
+    font-size: 1.25rem;
+}
+.big-size-font{
+    font-size: 1.5rem;
+}
+.clear-fix{
+    clear: both;
+}
+body{
+    font-family: "Helvetica Neue", "Roboto", "dejarip", arial, sans-serif;
+    margin:0px;
+    padding:0px;
+    text-align: justify;
+}
+#languages{
+    background: #00b8c0;
+    text-align: center;
+    padding: 0 5%;
+}
+#languages a{
+    text-decoration: none;
+    line-height: 30px;
+    padding: 10px;
+    color:white;
+}
+#languages a:active{
+    background: #ededed;
+}
+#global-voices-logo{
+    max-width:200px;
+}
+#languages a:hover{
+    text-decoration: underline;
+}
+#main-bar{
+    padding: 10px 10%;
+    background: #ededed;
+}
+.social-media-icon{
+    height:35.3px;
+    margin: 0 10px;
+    vertical-align:baseline;
+    float: right;
+    box-sizing: border-box;
+}
+.main-search{
+    float: right;
+}
+.main-search input[type=text], .email-submit input[type=text]{
+    font-size: 15px;
+    float:left;
+    padding: 5px;
+    height: 35.3px;
+    border: 1px solid grey;
+    background: #f1f1f1;
+    box-sizing: border-box;
+}
+  
+.main-search button, .email-submit button {
+    height: 35.3px;
+    float:left;
+    box-sizing: border-box;
+    background: #aaa;
+    color: white;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+nav{ 
+    padding: 0 10%;
+    background: #ededed;
+    min-height: max-content;
+}
+nav a{/* if the childs are inline, their padding or margin does not expand their container, INLINE-BLOCK fixes it */
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #aaa;
+    border-right: 1px solid  #ddd;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+main{
+    width: 60%;
+    margin:auto;
+}
+h1{
+
+}
+h2{
+    font-size:large;
+    color: #aaa;
+}
+h3{
+    color: #aaa;
+}
+.profile{
+    color: #aaa;
+}
+.profile img{ /*floating elements can't have padding or margin*/
+    float:left;
+    border-radius: 50%;
+}
+.profile p:first-of-type{
+    padding: 15px 0 5px 68px;
+    margin:0;
+}
+.profile p:last-of-type{
+    color: rgb(19, 9, 9);
+    margin: 0 0 30px 68px;
+    font-size: 15px;
+}
+#header-img{
+    width: 100%;
+    margin:auto;
+}
+#header-img img{
+    width:100%;
+}
+#header-img figcaption{
+    background-color: rgb(32, 31, 31);
+    color: #aaa;
+    padding:10px;
+}
+article{
+    font-size: 15px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+blockquote{
+      background-image: url(https://s3.amazonaws.com/static.globalvoices/img/tmpl/quote-l-64.png);
+      background-repeat: no-repeat;
+      background-size: 1.5rem;
+      background-position: .75rem .75rem;
+      background-color: #ededed;
+      margin:0;
+}
+blockquote p{
+    padding:10px 30px;
+}
+.twitter-tweet{
+    margin:auto;
+}
+#article-img{
+    margin: 0 0 50px 0;
+
+}
+#article-img img{
+    width:40%;
+    float: left;
+}
+#article-img figcaption{
+    padding: 25px 0 0 43%;
+}
+#categories{
+    margin-bottom:20px;
+}
+.profile{
+    display:inline-block;
+}
+#creative-commons-img{
+    float: right;
+    height:64px;
+}
+.support-msg{
+    display: inline-block;
+    background-color: #333;    
+    color: #ccc;
+    padding: 0 10px 10px;
+    margin: 20px 0;
+}
+.support-msg a, .footer-element a{
+    text-decoration: none;
+    color:white;
+    /*display: block;*/
+    background-color: #FF9000;
+    text-align: center;
+    padding: 5px 0;
+}
+.support-msg a:hover, .footer-element a:hover{
+    background-color: #ffa229;
+}
+#comments{
+    display: inline-block;
+    background-color: #ddd;
+    padding: 0 10px 10px;
+}
+#comments div{
+    margin:4px 0;
+}
+#comments h2, #comments div h3{
+    color: #111;
+}
+#comments h3 a{
+    text-decoration: none;
+    color: #1287c8;
+}
+#comments h3 a:hover{
+    color: #3893c4;
+    text-decoration: underline;
+}
+
+#comments input{
+    line-height: 15px;
+    margin-right: 3px;
+}
+textarea{
+    width:100%;
+    resize: vertical;
+}
+#comments ul{
+    list-style-type:initial;
+    margin-top:0;
+}
+#comments input[type=submit]{
+    border-radius: 0;
+    background-color: #aaa;
+    border-width: 0px;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+footer{
+    padding: 0 20%;
+    background-color: #333;
+    color:white;
+}
+ul{
+    list-style-type:none;
+    padding-left: 10px;
+}
+li{
+    margin:5px;
+}
+footer .main-search{
+    float:left;
+}
+footer .main-search input[type=text] {
+    height: 25.3px;
+    width: 100px;
+    font-size: 10px;
+}
+footer .main-search button {
+    height: 25.3px;
+}
+.footer-element{
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin:10px;
+    border-left: 1px solid #aaa;
+}
+.div{
+    background-color: green;
+}
+.div .footer-element{
+    float: left;
+    width:50%;
+}
+.footer-element h3{
+    margin-top:0;
+}
+form.footer-element{
+    font-size: 5px;
+}
+input[type="radio"] {
+    margin-top:10px;
+}
+footer + div{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 20%;
+    margin:auto;
+    background-color: #020202;
+    color: #aaa;
+    text-align: center;
+}
+body div:last-child a{
+    width:5px;
+}
